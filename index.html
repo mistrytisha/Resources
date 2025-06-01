@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resources & PDFs - coding_sha</title>
+  <style>
+    /* Reset and base */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #4154a5, #270b43);
+      color: #f0f0f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+    a {
+      color: #eef8a1;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+    header {
+      max-width: 900px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 2rem;
+      padding: 1rem;
+      background: rgba(0,0,0,0.2);
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.25rem;
+      letter-spacing: 2px;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #d3d3d3;
+    }
+    header a {
+      font-weight: 600;
+      font-size: 1.15rem;
+      display: inline-block;
+      margin-top: 0.5rem;
+      background: #9d61ff;
+      padding: 0.45rem 1rem;
+      border-radius: 24px;
+      box-shadow: 0 4px 10px rgba(16, 8, 92, 0.6);
+    }
+    main {
+      max-width: 900px;
+      width: 100%;
+      background: rgba(0,0,0,0.3);
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    section h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      border-bottom: 3px solid #ffd369;
+      padding-bottom: 0.3rem;
+      letter-spacing: 1.5px;
+    }
+    ul.resource-list, ul.pdf-list {
+      list-style: none;
+    }
+    ul li {
+      background: rgba(255, 255, 255, 0.1);
+      margin-bottom: 1rem;
+      padding: 1rem 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transition: background 0.3s ease;
+    }
+    ul li:hover {
+      background: rgba(255, 215, 105, 0.15);
+    }
+    ul li a.title-link {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #ffd369;
+      display: inline-block;
+      margin-bottom: 0.25rem;
+    }
+    ul li p.description {
+      font-size: 1rem;
+      color: #ddd;
+    }
+    footer {
+      margin-top: auto;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      section h2 {
+        font-size: 1.5rem;
+      }
+      ul li a.title-link {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>coding_sha Resources & PDFs</h1>
+    <p>Your go-to place for coding resources and PDF downloads</p>
+    <a href="https://instagram.com/coding_sha" target="_blank" rel="noopener noreferrer">Follow on Instagram @coding_sha</a>
+  </header>
+  <main>
+    <section id="resources">
+      <h2>References websites</h2>
+      <ul class="resource-list">
+        <li>
+          <a class="title-link" href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a>
+          <p class="description">Free tutorials and coding challenges for web development and more. You can get <strong>Certificate</strong>  if you Complete the challenges.</p>
+        </li>
+        <li>
+          <a class="title-link" href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a>
+          <p class="description">Comprehensive documentation and learning resources for web developers.</p>
+        </li>
+        <li>
+          <a class="title-link" href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a>
+          <p class="description">Interactive tutorials covering many web technologies and programming languages.</p>
+        </li>
+        <!--More list here-->
+
+      </ul>
+    </section>
+    <section id="pdfs">
+      <h2>PDF Downloads</h2>
+      <ul class="pdf-list">
+        <li>
+          <a class="title-link" href="https://example.com/pdf/javascript_cheatsheet.pdf" target="_blank" rel="noopener noreferrer" download>Dart Step-by-step Instalation Guide</a>
+          <p class="description">Do you want to learn Dart? Here is Installation Guide </p>
+        </li>
+        <!--<li>
+          <a class="title-link" href="https://example.com/pdf/css_guide.pdf" target="_blank" rel="noopener noreferrer" download>CSS Guide</a>
+          <p class="description">A concise guide for mastering CSS basics and advanced concepts.</p>
+        </li>-->
+        <!-- More list here -->
+
+
+      </ul>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 coding_sha | Resources created with ❤️
+  </footer>
+</body>
+</html>
+
